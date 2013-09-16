@@ -53,3 +53,10 @@ This is a paragraph<br/>
 \</body\><br/>
 \</html\><br/>
 </code>
+
+Also the ability to work with files as opposed to just using the REPL.
+
+You might create a whole webpage using S-exp and then translate it into HTML, making life a lot easier.
+
+Wishlist:
+Extensions in Chrome and Firefox that have S-exp standalone. No HTML required. I don't even know if that's possible.
