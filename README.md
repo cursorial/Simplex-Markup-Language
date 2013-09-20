@@ -1,7 +1,7 @@
 S-exp2HTML
 ==========
 
-A Simple-expression to HTML translator written in Java.
+A Simple-expression to HTML translator.
 
 REPL Example:
 
