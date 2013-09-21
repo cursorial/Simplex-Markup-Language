@@ -16,11 +16,9 @@ public class Compiler{
 	public void Start(string inputLocation, string outputLocation){
 		reader = new StreamReader(inputLocation);
 		writer = new StreamWriter(outputLocation);
-		Console.WriteLine(inputLocation + " " + outputLocation);
 		while(reader.Peek() != -1){
 			fileContents += reader.ReadLine().Trim();
 		}
-		Console.WriteLine(fileContents);
 		input = fileContents.ToCharArray();
 		for(int i = 0; i < input.Length; i++){
 			if(input[i] == '('){
