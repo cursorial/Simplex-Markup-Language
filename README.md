@@ -30,5 +30,9 @@ This is a paragraph<br/>
 </code>
 
 Wishlist:
+
+*The ability to add attributes to tags
+
 *Extensions in Chrome and Firefox that have s-exp standalone. No HTML required. I don't even know if that's possible.
+
 *Plugins for popular text editors to allow s-exp to HTML, a la emmet.io
