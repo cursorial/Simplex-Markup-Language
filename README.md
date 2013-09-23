@@ -3,36 +3,11 @@ Simplex Markup Language
 
 A Simple-expression to HTML translator.
 
-REPL Example:
-
-Input:
-
-<code>(html(head(title))(body(p)))</code>
-
-Output:
-
-<code>
-\<html\><br/>
-\<head\><br/>
-\<title\><br/>
-\</title\><br/>
-\</head\><br/>
-\<body\><br/>
-\<p\><br/>
-\</p\><br/>
-\</body\><br/>
-\</html\><br/>
-</code>
-
-Still to come:
-
-The ability to insert text and tag properties.
-
 Example:
 
 Input:
 
-<code>(html(head(title "Title")(style "p{margin-left:20px;}"))(body(p id:'paragraph' "This is a paragraph")))</code>
+<code>(html(head(title "Title")(style "p{margin-left:20px;}"))(body(p "This is a paragraph")))</code>
 
 Output:
 
@@ -47,7 +22,7 @@ p{margin-left:20px;}<br/>
 \</style\><br/>
 \</head\><br/>
 \<body\><br/>
-\<p id='paragraph'\><br/>
+\<p\><br/>
 This is a paragraph<br/>
 \</p\><br/>
 \</body\><br/>
