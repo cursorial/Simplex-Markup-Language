@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="utf-8"?>
-<widget xmlns="http://www.w3.org/ns/widgets" id="https://github.com/cursorial/Simplex-Markup-Language">
-	<name>Simplex Markup Language displayer</name>
-	<description>This extensions allows your Opera Browser to display webpages that are written in Simplex Markup Language</description>
-  	<author href="https://github.com/cursorial/Simplex-Markup-Language" email="michaeldcurry1@gmail.com">Michael Curry</author>
-  	<icon src="SML.png"/>
-</widget>
