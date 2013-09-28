@@ -50,13 +50,16 @@ public class Compiler{
 	public void AddAttribToken(int i){
 		currentAttrib = "";
 		for(int j = i + 1; j < fileContents.Length; j++){
-			if(fileContents[j] == ' ' || fileContents[j] == '(' || fileContents[j] == ')'){
+			if(fileContents[j] == '(' ){
+				writer.WriteLine(" " + currentAttrib + ">");
+				break;
+			} else if(fileContents[j] == ' ' || fileContents[j] == ')'){
+				writer.Write(" " + currentAttrib);
 				break;
 			} else {
 				currentAttrib += fileContents[j];
 			}
 		}
-		writer.Write(" " + currentAttrib);
 		attribCount++;
 	}
 	public void AddContentToken(int i){
