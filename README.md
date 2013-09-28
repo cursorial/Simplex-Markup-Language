@@ -7,7 +7,7 @@ Example:
 
 Input:
 
-<code>(html(head(title "Title")(style "p{margin-left:20px;}"))(body(p "This is a paragraph")))</code>
+<code>(html(head(title "Title")(style "p{margin-left:20px;}"))(body(script :src='script.js')(p "This is a paragraph")))</code>
 
 Output:
 
@@ -22,6 +22,8 @@ p{margin-left:20px;}<br/>
 \</style\><br/>
 \</head\><br/>
 \<body\><br/>
+\<script src='script.js'\>
+\</script\><br/>
 \<p\><br/>
 This is a paragraph<br/>
 \</p\><br/>
