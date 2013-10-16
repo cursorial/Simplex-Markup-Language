@@ -99,6 +99,6 @@ chrome.extension.onMessage.addListener(function(request, sender){
 		}
 
 		console.log(output);
-		document.body.innerHTML = output;
+		document.write(output);
 	}
 });
