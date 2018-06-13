@@ -7,29 +7,31 @@ Example:
 
 Input:
 
-<code>(html(head(title "Title")(style "p{margin-left:20px;}"))(body(script :src='script.js')(p "This is a paragraph")))</code>
+    (html
+        (head
+            (title "Title")
+            (style "p { margin-left:20px; }")
+        )
+        (body
+            (script :src='script.js')
+            (p "This is a paragraph")
+        )
+    )
 
 Output:
 
-<code>
-\<html\><br/>
-\<head\><br/>
-\<title\><br/>
-Title<br/>
-\</title\><br/>
-\<style\><br/>
-p{margin-left:20px;}<br/>
-\</style\><br/>
-\</head\><br/>
-\<body\><br/>
-\<script src='script.js'\>
-\</script\><br/>
-\<p\><br/>
-This is a paragraph<br/>
-\</p\><br/>
-\</body\><br/>
-\</html\><br/>
-</code>
+    <html>
+        <head>
+            <title>
+                Title
+            </title>
+            <style> p { margin-left: 20px; } </style>
+            <script src='script.js'></script>
+        </head>
+        <body>
+            <p>This is a paragraph</p>
+        </body>
+    </html>
 
 Wishlist:
 
